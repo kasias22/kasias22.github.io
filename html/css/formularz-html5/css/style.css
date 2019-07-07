@@ -1,0 +1,19 @@
+body {
+    background-color: #213b50;
+    color: white;
+    position: relative;
+}
+input {
+    background-color: #4e708c;
+}
+
+textarea {
+    background-color: #4e708c;
+}
+select {
+    background-color: #4e708c;
+}
+input[type="submit"] {
+    background-color: green;
+    
+}
