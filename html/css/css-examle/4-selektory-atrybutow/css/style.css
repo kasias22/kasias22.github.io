@@ -1,0 +1,31 @@
+[title] {
+    color: brown;
+}
+
+[title="Main page"] {
+    font-size: 32px;
+}
+
+[title~="Container"] {
+    background-color: yellow;
+}
+/* To co ma takie znaki */
+[title*="tion"] {
+   background-color: aqua;
+}
+
+/* To co się zaczyna od danego słowa */
+[title^="More"] {
+    background-color: red;
+ }
+
+ [title$="skills"] {
+    background-color: green;
+ }
+
+ li[title] {
+     font-size: 50px;
+ }
+
+
+

@@ -1,0 +1,29 @@
+
+
+.container {
+    font-size: 30px;
+}
+
+.container > div {
+    background-color: #ff7900;
+    margin-bottom: 15px;
+}
+
+.pixels {
+    width: 400px;
+}
+.em {
+    width: 20em;
+}
+/* zawartość kontenera rodzica */
+.percent {
+    width: 50%;
+}
+/* Do wysokośći okna przeglądarki - 100 vh - 100% wysokości okna przeglądarki */
+.vh {
+    width: 60vh;
+}
+
+.vw {
+    width: 60vw;
+}

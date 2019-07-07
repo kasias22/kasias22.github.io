@@ -1,0 +1,64 @@
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 400px;
+    height: 100px;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-red {
+    background-color: red;
+
+}
+/* Pozycja relatywna */
+
+.box-relative {
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+/* Pozycja absolutna */
+
+.box-absolute {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.box-absolute-second {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+/* Pozycja ustalona */
+
+.fixed {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99999;
+}
+
+/* Pozycja sticky */
+
+.sticky {
+    width: 100%;
+    height: 100px;
+    background-color: dodgerblue;
+    position: sticky;
+    top: 0;
+}

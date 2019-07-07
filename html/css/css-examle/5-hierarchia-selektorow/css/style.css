@@ -1,0 +1,17 @@
+#main-title {
+    color: green;
+}
+
+
+.title {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+/* *-oznacza wszystkie !important - przełamuje wszystko, co ustawiliśmy,  */
+* {
+    color: yellow;
+}
