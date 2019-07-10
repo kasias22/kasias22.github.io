@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <form action="https://formspree.io/katarzyna.swistek22@gmail.com" method="POST">
+            <label for="imie">Imię</label>
+            <input type="text" name="imie" id="imie" placeholder="Podaj imię" required>
+            <label for="nazwisko">Nazwisko</label>
+            <input type="text" name="nazwisko" id="nazwisko" placeholder="Podaj nazwisko" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="_replyto" id="email">
+            <label for="numer-telefonu">Numer Telefonu</label> 
+            <input type="number" name="numer" id="numer-telefonu"> 
+            <select name="cities">
+                <option value="city1">Kraków</option>
+                <option value="city2">Warszawa</option>
+                <option value="city3">Gdańsk</option>
+            </select>
+                <label class="gender"><input type="radio" name="gender">Kobieta</label>
+                <label class="gender"><input type="radio" name="gender">Mężczyzna</label>
+
+            
+
+            <label><input type="checkbox" name="agreement">Wyrażam zgodę na przetwarzanie moich danych osobowych </label><br>
+            <textarea maxlength="1000" name="message" rows="3" placeholder="Wiadomość do mnie"></textarea> <br>
+            <input type="submit" value="Send">
+        </form>
+    
+</body>
+</html>
