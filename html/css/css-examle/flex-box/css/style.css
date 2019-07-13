@@ -1,0 +1,33 @@
+.box {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+
+}
+
+.item {
+    border: 2px solid green;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    overflow: hidden; 
+    /* flex-basis: 25%; */
+    width: 200px;
+}
+
+.item1 {
+    /* order: 2; */
+    flex-grow: 10;
+}
+.item2 {
+   /* align-self: flex-end; */ 
+    /* order:0; */
+    flex-grow: 5;
+}
+
+.item3 {
+  /*   order: 1; */
+    flex-grow: 2;
+}

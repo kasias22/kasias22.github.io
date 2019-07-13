@@ -1,0 +1,44 @@
+
+/* img {
+    width: 200px;
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes resize {
+0%,100% {
+    width: 10%;
+}
+50% {
+    width: 5%;
+}
+
+} */
+
+img {
+    width: 20px;
+}
+
+button {
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: guzik;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+
+}
+
+@keyframes guzik {
+    0%,100% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+
+}

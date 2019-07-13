@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 100px;
+    margin: 100px auto;
+    transform: scale(1.5);
+}
+
+.box1 {    
+    transform: translate(90px, 20px);
+    background-color: red;
+
+}

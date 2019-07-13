@@ -1,0 +1,19 @@
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+@media (max-width: 800px) {
+    .box {
+        background-color: blue;
+    }
+
+   
+}
+
+@media print {
+    p {
+        color: white;
+    }
+}

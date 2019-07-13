@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;    
+}
+.box:hover {
+    width: 400px;
+    background-color: green;
+}
