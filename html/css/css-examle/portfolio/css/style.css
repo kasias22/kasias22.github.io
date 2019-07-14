@@ -1,16 +1,244 @@
+
+/* General style */
 * {
-    background-color: aliceblue;
-   
+    font-family: 'Open Sans', sans-serif;
+    color: #777;   
+    font-size: 16px;
 }
+
+hr {
+    background-color: #007bff;
+    height: 1px;
+    width: 70px;
+    border: none;
+
+}
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #007bff;
+    padding: 10px 12px;
+    cursor: pointer;
+    color: #333;;
+    margin-top: 20px;
+    transition: .3s all;
+    
+}
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #000;
+    text-align: center;
+}
+h3 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #007bff;
+    margin: 0;
+    opacity: 0;
+}
+
+/* header style */
+
 .main-header {
     padding: 10% 0;
     display: flex;
+    background-image: url(../portfolio-grafiki/img/header.jpg);
+    background-size: cover;
+    background-position: center;
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-transform: uppercase;
 }
 
-li[class="css"]::before {
-    content: "*";
-    color: blue;
+.main-header h1 {
+    color: #007bff;
+    font-size: 3.3em;
+    text-transform: uppercase;
 }
+
+
+.main-header p {
+    font-size: 1.3em;
+    color: #333;
+    text-align: center;
+    flex-basis: 25%;
+}
+
+.main-header span {
+    color: #007bff;
+}
+
+.main-nav {
+    position: sticky;
+    background-color: #007bff;
+    top:0;
+    padding: 10px;
+    z-index: 100;
+   
+}
+.main-nav .nav-menu {
+   margin: 0;
+   padding: 10px 0;
+   text-align: center;
+}
+.main-nav .nav-menu .nav-menu-item {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.main-nav .nav-menu .nav-menu-item a {
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: .3s all;
+    display: inline-block;
+}
+.main-nav .nav-menu .nav-menu-item a:hover {
+
+    background-color: #007bff;
+    color: #333;
+}
+
+label {
+    display: none;
+    
+}
+ #drop-nav {
+     display: none;
+ }
+
+ .about-me {
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0 0 5% 0;
+ }
+ 
+
+ img {
+    
+     border-radius: 50%;
+     width: 50%; 
+     height: auto; 
+     margin-top: 5%; 
+ }
+
+ p {
+     width: 60%;
+     text-align: center;
+
+     /* PORTFOLIO */
+ }
+ .portfolio {
+    text-align: center;
+     background-color: #f2f1ed;
+    
+     
+ }
+ .portfolio .portfolio-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 80%;
+     margin: 0 auto;
+ }
+ .portfolio .portfolio-wrapper .portfolio-item1 {
+    position: relative;
+    flex-basis: 25%;
+    height: 200px;
+ }
+
+ .portfolio .portfolio-wrapper .portfolio-item1 img {
+    border-radius: 0%; 
+   width: 100%;
+   height: 100%;
+   object-fit: cover; 
+   object-position: center;
+   margin: 0;
+  
+
+ }
+ .portfolio .portfolio-wrapper .portfolio-item1 h3{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     background-color:rgb(20, 20, 221);
+     opacity: 0;
+     top: 0;
+     margin: 0;
+     line-height: 200px;
+
+ }
+ .portfolio .portfolio-wrapper .portfolio-item1 h3:hover {
+     opacity: 1;
+    
+ }
+ form {
+     width: 65%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+    margin: 0 auto;
+ }
+
+ input {
+     flex-basis: 40%;
+     padding: 10px 15px;
+     margin-bottom: 15px;
+ }
+
+ textarea {
+     flex-basis: 100%;
+     height: 200px;
+     padding: 10px 15px;
+
+ }
+
+ input[type="submit"] {
+margin: 2% auto;
+background: transparent;
+ }
+
+ .social-links {
+     flex-basis: 50%;
+     padding: 5%;
+     margin: 0 auto;
+ }
+ .social-icon{
+     text-decoration: none;
+     margin: 0 5%;
+ }
+
+ .social-icon i {
+     font-size: 2em;
+
+ }
+ .social-icon i:hover {
+    
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f1ed;
+    text-align: center;
+}
+
+footer p {
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+

@@ -1,0 +1,43 @@
+
+@media (max-width: 980px) {
+    .portfolio .portfolio-wrapper .portfolio-item1 {
+        flex-basis: 50%;
+     }
+     form {
+        width: 80%;
+      
+    }
+}
+@media (max-width: 680px) {
+    input {
+        width: 100%
+    }
+}
+
+
+
+/* media nav */
+@media (max-width: 480px) {
+    .nav-menu {
+        display: none;
+    }
+
+    label{
+        display:block;
+        padding: 10px 15px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        text-align: right;
+    }
+
+    #drop-nav:checked +ul {
+        display: block;
+    }
+   .main-nav .nav-menu .nav-menu-item {
+       display: block;
+       text-align: right;
+    
+   }
+}
+/*  */
