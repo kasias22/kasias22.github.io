@@ -1,0 +1,14 @@
+body {
+    position: relative;
+}
+header {
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
